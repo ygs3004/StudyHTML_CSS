@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img src="images/first.jpg">
+	<img src="images/petit.jpg" width="300">
+	<img src="images/watch.jpg" width="300" height="200">
+	
+</body>
+</html>

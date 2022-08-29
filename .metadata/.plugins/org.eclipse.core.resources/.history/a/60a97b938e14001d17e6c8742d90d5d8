@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>여름 방학 특강 신청</h1>
+	<form action="">
+		<fieldset>
+			<legend>수강과목</legend>
+			<ul>
+				<li><label class="reg" for="subj">영어회화 초급</label> 
+					<input type="text" value="오전 09:00~11:00" readonly>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>신청자</legend>
+			<ul>
+				<li>
+					<label class="reg" for="uname">이름</label>
+					<input type="text" id="uname" autofocus required> 
+				</li>
+				<li>
+					<label class="reg" for="uid">학번</label>
+					<input type="text" id="uid" placeholder="- 없이 입력" maxlength="8"> 
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>신청자</legend>
+			<ul>
+				<li>
+					<label class="reg" for="uname">이름</label>
+					<input type="text" id="uname" autofocus required> 
+				</li>
+				<li>
+					<label class="reg" for="uid">학번</label>
+					<input type="text" id="uid" placeholder="- 없이 입력" maxlength="8"> 
+				</li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>

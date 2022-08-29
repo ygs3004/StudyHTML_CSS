@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+	<caption>테스트</caption>
+		<tr>
+			<th rowspan=2>구분</th>
+			<th colspan=2>1학년</th>
+			<thconspan=2>2학년</th>
+		</tr>
+		<tr>
+			<th>홍길동</th>
+			<th>이순신</th>
+			<th>김철수</th>
+			<th>강다구</th>
+		</tr>
+		<tr>
+			<th>전공필수</th>
+			<td>100</td>
+			<td>90</td>
+			<td>90</td>
+			<td>70</td>
+		</tr>
+		<tr>
+			<th>전공선택</th>
+			<td>80</td>
+			<td>60</td>
+			<td>50</td>
+			<td>40</td>
+		</tr>
+
+
+	</table>
+
+</body>
+</html>

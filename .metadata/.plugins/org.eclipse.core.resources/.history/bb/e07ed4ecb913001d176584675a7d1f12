@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+		<tr>
+			<th>과목</th>
+			<th>수강료</th>
+			</tr>			
+		</thead>
+		<tbody>
+			<tr>
+				<td>Python</td>
+				<td>45000</td>
+			</tr>
+			<tr>
+				<td>Java</td>
+				<td>70000</td>			
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>30000</td>			
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>	
+				<td>총합계</td>
+				<td>145000</td>			
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

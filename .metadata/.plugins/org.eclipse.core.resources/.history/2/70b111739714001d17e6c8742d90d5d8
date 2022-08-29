@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="counter">		<!-- div 구역 -->
+		<h1>상품 주문서</h1>
+		<form action="">
+			<fieldset>
+				<legend>개인 정보</legend>
+				<ul>
+				<li>
+					<label for="uname" class="title"> </label>
+					<input type="text" id="uname" placeholder="여백없이 입력" required>
+				</li>
+				<li>
+					<label for="tell" class="title">이름</label>
+					<input type="tel" id="tel1" placeholder="연락가능한 번호">
+				</li>
+				</ul>
+			</fieldset>
+			
+			<fieldset>
+				<legend>개인 정보</legend>
+				<ul>
+				<li>
+					<label for="uname" class="title"> </label>
+					<input type="text" id="uname" placeholder="여백없이 입력" required>
+				</li>
+				<li>
+					<label for="tell" class="title">이름</label>
+					<input type="tel" id="tel1" placeholder="연락가능한 번호">
+				</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

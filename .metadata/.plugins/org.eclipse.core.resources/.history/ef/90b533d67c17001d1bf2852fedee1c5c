@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>여름 방학 특강 신청</h1>
+<form action = "">
+	<fieldset>
+		<legend>수강 신청인</legend>
+		<ul>
+			<li>
+				<label class="reg" for="id">학번</label>
+				<input type="text" id="id" autofocus>
+			</li>
+			<li>
+				<label class="reg" for="name">이름</label>
+				<input type="text" id="name">
+			</li>
+		</ul>
+	</fieldset>
+</form>
+
+</body>
+</html>

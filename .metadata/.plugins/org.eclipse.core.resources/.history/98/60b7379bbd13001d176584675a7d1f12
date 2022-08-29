@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<th></th>
+				<th colsapn="3">옆으로 세칸</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="3">아래로 세칸</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+			</tr>
+			<tr>
+				<td>HTML5</td>
+				<td rowspan="2">아래로 두칸</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+			</tr>
+			<tr>
+				<td>HTML5</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+			</tr>
+			<tr>
+				<td>HTML5</td>
+				<td>HTML5</td>
+				<tdcolspan="2" rowspan="2"> 옆으로, 아래로 두칸</td>
+			</tr>
+			<tr>
+				<td>HTML5</td>
+				<td>HTML5</td>
+			</tr>
+		</tbody>
+</body>
+</html>

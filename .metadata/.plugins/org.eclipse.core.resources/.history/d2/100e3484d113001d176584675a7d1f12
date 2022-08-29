@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<video width="140" height ="120" 
+		controls="controls">
+		<source src="Wildlife.mp4" type="video/mp4">
+	</video>
+</body>
+</html>
+
+
+<!-- poster="http://placehold.it/640X360" -->

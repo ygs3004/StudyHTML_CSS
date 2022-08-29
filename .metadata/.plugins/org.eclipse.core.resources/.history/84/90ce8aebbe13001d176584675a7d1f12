@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			
+			<td rowspan="2">중간고사 정적</td>
+				<td>국어</td>
+				<td>영어</td>
+				<td>수학</td>
+			</th>
+			<tr>
+			<td>100</td>
+			<td>60</td>
+			<td>80</td>
+			
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+	background-color:#fff;
+}
+
+form fieldset{
+	margin-bottom:25px;
+}
+
+form legend{
+	font-size:15px;
+	font-weight:600;
+}
+
+.reg{
+	font-size:14px;
+	width:110px
+	color#390;
+	font-weight:bold;
+	float:left;
+	text-align:right;
+	margin-right:10px;
+}
+
+forl ul li{
+	list-style : none;
+	margin:15px 0;
+	font-size:14px;
+}
+
+
+</head>
+<body>
+
+</body>
+</html>

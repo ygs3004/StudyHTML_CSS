@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>조회기간 선택</h3>
+	<input type="data" id="start">
+	<input type="date" id="end">
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="counter">   <!-- div 구역 -->
+<h1>상품 주문서</h1>
+<form action =""></form>
+</div>
+</body>
+</html>

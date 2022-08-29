@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<!-- table row-->
+			<th>month</th>
+			<!-- table header -->
+		</tr>
+		<tr>
+			<th>October</th>
+			<th>31</th>
+		</tr>
+		<tr>
+			<th>November</th>
+			<th>30</th>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="counter">		<!-- div 구역 -->
+		<h1>상품 주문서</h1>
+		<form action="">
+			<fieldset>
+				<legend>개인 정보</legend>
+				<ul>
+					<li><label for="uname" class="title"> </label></li>
+					<input type="text" id="uname" placeholder="여백없이 입력" required>
+				</ul>
+				
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

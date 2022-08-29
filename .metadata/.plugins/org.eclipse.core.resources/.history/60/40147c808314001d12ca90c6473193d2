@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>메일링 리스트 등록</h3>
+	<form action="search.jsp" method="post"></form>
+	메일 주소<input type="text">
+	<input type="submit" value="제출">
+	<input type="reset" value="다시 입력">
+	
+</body>
+</html>

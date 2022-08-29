@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<th></th>
+				<th rowspan="2">중간고사 정적</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="3">아래로 세칸</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+				<td>HTML5</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

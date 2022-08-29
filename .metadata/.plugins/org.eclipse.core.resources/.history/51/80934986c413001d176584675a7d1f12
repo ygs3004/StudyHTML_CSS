@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td colspan="2">중간고사 정적</td>
+			<td rowspan=2 >점수 </td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td>나이</td>
+		</tr>
+		<tr>
+			<td>왕점수</td>
+			<td>20세</td>
+			<td>100점</td>
+		</tr>
+	</table>
+
+</body>
+</html>

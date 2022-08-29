@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>1박 2일 가족 여행 코스</h1>
+	<ul>
+		<li>1일차
+		<ol>
+			<li>해녀박물관</li>
+			<li>송악산 둘레길</li>
+		</ol>
+		</li>
+		<li>2일차
+		<ol>
+			<li>용눈이오름</li>
+			<li>만장굴</li>
+			<li>비자림</li>
+		</ol>
+		</li>
+	</ul>
+</body>
+</html>

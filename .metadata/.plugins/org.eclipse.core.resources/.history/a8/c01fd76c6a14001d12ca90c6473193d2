@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	ul{
+		list-style:none; /* 리스트 번호매김 사라짐 */
+	}
+</style>
+</head>
+<body>
+	<h1>회원 가입</h1>
+	<form action="">
+		<!-- <fieldset style="width:450px"> -->
+		<fieldset>
+		<legend>로그인 정보</legend>
+			<ul>
+			<li><label for="user_id">아이디:</label>
+				<input type ="text" id="id">
+				</li>
+			<li><label for="pwd1">비밀번호:</label>
+				 <input type="password" id="pwd1">
+				</li>
+			<li><label for="pwd2">비밀번호 확인:</label> 
+			<input type="password" id="pwd2">
+				</li>
+			</ul>
+		</fieldset>
+		
+		<fieldset>
+		<legend>개인 정보</legend>
+			<ul>
+			<li><label for="user_name">이름:</label>
+				<input type ="text" name="user_name">
+				</li>
+			<li><label for="mail">메일주소:</label>
+				<input type="text" id="mail">
+				</li>
+			<li><label for="phone">연락처</label>
+				<input type="tel" id="phone">
+				</li>
+			<li><label for="homeP">블로그/홈페이지</label>
+				<input type="urL" id="homeP">
+				</li>
+		</ul>
+		</fieldset>
+		<input type="submit" value="가입하기">
+	</form>
+</body>
+</html>

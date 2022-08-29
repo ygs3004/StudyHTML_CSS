@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Java Emp Class Lecture 2022-06-15\HTML_CSS_LECTURE\HTML CSS Workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+403069016.index
+151695881.index
+2521746823.index
+574532621.index
+3026851067.index
+2648139056.index
+1284931706.index
+3095272734.index

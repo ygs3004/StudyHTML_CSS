@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+label{
+	font-size:14px; /* 글자 간격 */
+	line-height:25px; /* 줄 간격 */
+}
+
+label em{
+}
+</style>
+</head>
+<body>
+	<form action="search.jsp" method="post">
+			<fieldset>
+			<label for="id"><em>아이디:</em></label> 
+			<input type="text" id="userid" size="10">
+			<label for="pw"><em>비밀번호:</em></label> 
+			<input type="password" id="user_pw" size="10">
+			<input type="submit" value="로그인">
+			</fieldset>
+	</form>
+</body>
+</html>

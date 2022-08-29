@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+	background-color : #bfff00;
+	}
+	
+	form legend{
+		font-size:15px;
+		font-weight:600;
+	}
+	
+	form label.reg{						/* class 적용, 접근 .class */
+		font-size:15px;
+		width:150px;
+		float:left;
+	}
+	
+	form ul li{
+		list-style : none;
+		margin:15px 0;
+	}
+	
+	#member, #stuffs{					/* id에 접근 */
+		width : 50px;
+	}
+	
+	/*
+	margin : 20px => 상하좌우 모두 20px
+	margin : 30px 10px => 상하 30px 좌우 10px
+	margin : 30px 10px 40px => 상 30px 좌우 10px 하 40px
+	margin : 30px 10px 20px 50px => 시계방향
+	 */
+	
+</style>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+		<legend>등록정보</legend>
+			<ul>
+				<li><label class="reg" for="member">참여인원(최대 10명)</label>
+				<input type="number" id="member" value="1" min="0" max="10" step="1"></li>
+				<li><label class="reg" for="stuffs">지원물품(1인당 5개)</label>
+				<input type="number" id="stuffs" value="1" min="0" max="50" step="5"></li>
+				<li><label class="reg" for="satis">희망단계(하,중,상)</label>
+				<input type="range" id="satis" value="1" min="1" max="3"></li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>

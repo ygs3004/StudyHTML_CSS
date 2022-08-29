@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td colspan="2">A반 학생</td>
+			<td rowspan=2 >점수 </td>
+		</tr>
+		<tr>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr>
+			<td>왕점수</td>
+			<td>20세</td>
+			<td>100점</td>
+		</tr>
+	</table>
+
+</body>
+</html>

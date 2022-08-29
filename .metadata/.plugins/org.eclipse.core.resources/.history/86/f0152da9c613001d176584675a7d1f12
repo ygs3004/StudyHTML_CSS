@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p>테스트</p>
+<table border = "1">
+<tr>
+<th rowspan=2>구분</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<th>a</th>
+<th>a</th>
+</tr>
+
+</table>
+
+</body>
+</html>

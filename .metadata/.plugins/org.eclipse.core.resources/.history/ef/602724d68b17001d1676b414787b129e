@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	form fieldset{
+		margin : 10pex 0;
+	}
+	
+	
+	form legend{
+		font-size : 18px;
+		color : #0066ff;
+		font-weight : 600;
+	}
+
+	form label.reg{
+		font-size : 14px;
+		width : 120px;
+		float : left;
+	}	
+	
+	form label em{
+		font-size : 15px;
+		color : red;
+		font-weight : 800;
+	}
+	
+	font ul li{
+		list-style : none;
+		margin : 10px 0;
+	}
+	
+	form.easys{
+		text-align : left;
+		font-size : 12px;
+		color : blue; 
+	}
+	
+	form fieldset.sendform{
+	text-align : center;
+	}
+	
+</style>
+</head>
+<body>
+<form action="">
+	<fieldset class="login">
+		<label for="user_id">아이디</label>
+			<input type="text" id="user_id" size="10" autofocus>
+		<label for="user_pw">비밀번호</label>
+			<input type="password" id="user_pw" size="10">
+			<input type="submit" value="로그인">
+	</fieldset>
+	<fieldset>
+		<legend>가입하기</legend>
+		<ul>
+			<li>
+				<label class="reg" for="user_name">아이디<em>*</em></label>
+				<input type="text" id="user_id" size="20" autocomplete='on' required>
+			</li>
+			<li>
+				<label class="reg" for="user_pw1">비밀번호<em>*</em></label>
+				<input type="password" id="user_pw1" size="20" required>
+			</li>
+			<li>
+				<label class="reg" for="user_pw2">비밀번호<em>*</em></label>
+				<input type="password" id="user_pw2" size="20" required>
+			</li>
+		</ul>
+	</fieldset>
+</form>
+
+</body>
+</html>

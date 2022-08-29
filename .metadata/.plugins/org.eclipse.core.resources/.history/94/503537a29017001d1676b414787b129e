@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+		<input type="number" name="num1" value="0">+
+		<input type="number" name="num2" value="0">=
+		<output name="result"></output>
+	</form>
+</body>
+</html>

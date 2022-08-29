@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="search.jsp" method="post">
+		<ul>
+			<li><label for="id"><em>아이디:</em></label> 
+			<input type="text" id="id">
+			</li>
+			<li><label for="pw">비밀번호</label> : <input type="password"
+				id="pw"></li>
+			<li><input type="submit" value="로그인"></li>
+		</ul>
+	</form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	li{
+		list-style: none;
+		margin:10px 0px ;  
+		font-size : 14px;
+		font-weight : normal;
+	}
+	ul{
+		margin-top : 30px;
+	}
+	.main{
+		width:480px;
+		margin : auto; 
+		padding-top: 25px;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 40px;
+		font-size :15px;
+	}
+	
+	.body{
+		margin-top :20px;
+		font-size : 16px;
+		font-weight : bold; 
+		border:0 none;
+		text-align : left;
+	}
+	
+	textarea{
+		margin-top : 20px;
+	}
+	
+	.reg{
+		float : left;
+		text-align : right;
+		width : 11px;
+	}
+
+</style>
+</head>
+<body>
+<form action="">
+<fieldset class = "main">
+<h1>프런트엔드 개발자 지원서</h1>
+<h4>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</h4>
+<hr></hr>
+	<fieldset class ="body">개인정보
+		<ul>
+			<li>
+				<label class="reg" for="name">이름</label>
+				<input type="text" id="name" placeholder="공백없이 입력하세요" autofocus> 
+			</li>
+			<li>
+				<label class="reg" for="phone">연락처
+				<input type="tel" id="phone"> </label>
+			</li>
+		</ul>
+	</fieldset>
+	<fieldset class ="body">지원 분야
+		<ul>
+			<li>
+			<input type="radio" id="publishing" ><label for = "publishing"> 웹 퍼블리싱</label>
+			</li>
+			<li><input type="radio" id="application" ><label for = "application"> 웹 어플리케이션 개발</label>
+			</li>
+			<li><input type="radio" id="improving" ><label for = "improving"> 개발 환경 개선</label>
+			</li>
+		</ul>
+	</fieldset>
+	<fieldset class ="body"> 지원 동기<br>
+			<textarea rows="5" cols="65" name="motivation" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+			<br>
+			<input type="submit" value="접수하기">
+			<input type="reset" value="다시쓰기">	
+	</fieldset>
+</fieldset>
+</form>
+</body>
+</html>

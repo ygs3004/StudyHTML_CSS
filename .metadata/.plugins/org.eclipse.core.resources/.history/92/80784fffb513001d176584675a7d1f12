@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- description list -->
+	<dt>메뉴 리스트</dt>
+	<dd>menu1</dd>
+	<dd>menu2</dd>
+	<dd>menu3</dd>
+	<dd>menu4</dd>
+	<dd>menu5</dd>
+
+	<dt>나라 리스트</dt>
+	<dd>대한민국</dd>
+	<dd>미국</dd>
+	<dd>중국</dd>
+	<dd>일본</dd>
+	<dd>대만</dd>
+	<dd>태국</dd>
+</body>
+</html>
